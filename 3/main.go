@@ -70,6 +70,4 @@ func main() {
 	for _, product := range products {
 		fmt.Println(product.Name, product.Category.Name, product.SerialNumber.Number)
 	}
-
-	// has_many => Relacionamento 1:N
 }
